@@ -1,0 +1,37 @@
+.padre{
+    background-color: blueviolet;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 7fr 2fr;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+
+.padre .menu{
+    background-color: burlywood;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.padre .contenido{
+    background-color: burlywood;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.padre .ads{
+    background-color: burlywood;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.padre .pie{
+    background-color: burlywood;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+.list-group-item img {
+  width: 60px;   
+  height: 60px;  
+  object-fit: cover; 
+}
